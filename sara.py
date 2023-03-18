@@ -36,10 +36,10 @@ def _sprite_row(sheet, x0, y0, w, h, count):
 
 
 imgdef = {
-    Directions.NORTH: _sprite_row(sheet, 0, 64 *  8, 64, 64, 6),
-    Directions.EAST:  _sprite_row(sheet, 0, 64 * 11, 64, 64, 6),
-    Directions.SOUTH: _sprite_row(sheet, 0, 64 * 10, 64, 64, 6),
-    Directions.WEST:  _sprite_row(sheet, 0, 64 *  9, 64, 64, 6),
+    Directions.NORTH: _sprite_row(sheet, 64, 64 *  8, 64, 64, 8),
+    Directions.EAST:  _sprite_row(sheet, 64, 64 * 11, 64, 64, 8),
+    Directions.SOUTH: _sprite_row(sheet, 64, 64 * 10, 64, 64, 8),
+    Directions.WEST:  _sprite_row(sheet, 64, 64 *  9, 64, 64, 8),
 }
 
 
