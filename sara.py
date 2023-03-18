@@ -92,6 +92,7 @@ while running:
                 running = False
             elif e.key in PLAYER_CONTROL:
                 sara.direction = PLAYER_CONTROL[e.key]
+                sara.anim_idx = 0
 
     screen.fill(BLACK)
     sara_group.update(dt)
