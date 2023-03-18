@@ -13,3 +13,5 @@ different sprites on its current state (direction, phase in animation, ...).
 
 This short demonstration shows a cycle of 6 animation steps for the 4
 directions nort, south, east, west.
+
+![Screen recording of Sara walking](https://github.com/DickerDackel/pygame-sara-walking/blob/main/sara-walking.gif)
