@@ -1,6 +1,7 @@
 # pygame-sara-walking
 
-Demo of a walking directional sprite animation
+Demo of a walking directional sprite animation as answer to a question on
+the pygame reddit.
 
 The pygame.sprite.Sprite class makes use of two attributes, rect and image.
 
